@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sangcomz.fishbun.util.SquareFrameLayout android:background="#ffd9d9d9" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/img_thumb_image" android:background="?selectableItemBackgroundBorderless" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cropToPadding="false" />
+    <ImageView android:background="@drawable/drawable_detail_gradient" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.sangcomz.fishbun.util.RadioWithTextButton android:layout_gravity="right" android:id="@id/btn_thumb_count" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_margin="5.0dip" />
+</com.sangcomz.fishbun.util.SquareFrameLayout>
